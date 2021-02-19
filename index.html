@@ -1,147 +1,418 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
 
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
-      crossorigin="anonymous"
-    />
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>WebDevAsif</title>
-    <style>
-      #mainLogo {
-        margin: 16px 35px;
-        /* border-radius: 133px; */
-      }
-      .border-bottom {
-        border-bottom: 3px solid #dc3545 !important;
-        color: red;
-        width: 179px;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container-fluid bg-dark mx-auto" id="mainHead">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-4">
-            <img
-              src="a.jpg"
-              class="rounded-circle"
-              id="mainLogo"
-              width="250"
-              height="250"
-              alt=""
-            />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  <title>Hey, I'm Asif</title>
+  <style>
+    .navbar {
+      border-bottom: 1px solid palegoldenrod;
+    }
+
+    .navbar-brand {
+      display: inline-block;
+      padding-top: .3125rem;
+      padding-bottom: .3125rem;
+      margin-right: 1rem;
+      font-size: 2rem;
+      line-height: inherit;
+      white-space: nowrap;
+      font-family: cursive;
+      color: darkgoldenrod !important;
+
+    }
+
+    .bg-light {
+      background-color: antiquewhite !important;
+    }
+
+    .nav-item {
+      padding: 21px;
+      font-size: 1.2rem;
+    }
+
+
+
+    .home-section {
+      background-color: antiquewhite;
+      /* padding: 185px 0px; */
+    }
+
+    .home-row {
+      padding: 185px 0px;
+    }
+
+    .home-intro {
+      text-align: center;
+      padding: 100px 0px;
+    }
+
+    .home-intro h1 {
+      font-family: initial;
+
+    }
+
+    .home-intro h4 {
+      font-size: 1.2rem;
+      font-family: ui-serif;
+    }
+
+    .home-intro-img img {
+      border-radius: 175px;
+      margin: 0px 88px;
+    }
+
+    .social-icons {
+      width: 20px;
+      margin: 0px 10px;
+    }
+
+    /* ---------------about-section------------ */
+    .about-section {
+      background-color: #FBFCFC;
+    }
+
+    .about-body {
+      padding: 100px 0px;
+    }
+
+    .about-img {
+      width: 302px;
+      height: 294px;
+      border-radius: 152px;
+    }
+
+    #about-myself {
+      font-size: 34px;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    #about-para {
+      color: gray;
+      margin: 10px 0px;
+      padding: 3px 0px;
+    }
+
+    .about-icon {
+      width: 25px;
+      margin-right: 15px;
+      margin-top: 20px;
+    }
+
+    .about-link {
+      text-decoration: none;
+      color: gray;
+      margin-top: 10px;
+    }
+
+    /*--------------------------------skill section ------------*/
+    .skill-section {
+      background-color: white;
+    }
+
+    .skill-body {
+
+      padding: 64px 0px;
+      text-align: center;
+      padding-bottom: 78px;
+
+    }
+
+    .skill-body h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+
+    .skill-ul {
+      display: flex;
+      margin: 60px 200px;
+
+    }
+
+    .skill-ul li {
+      list-style: none;
+      margin: 0px 40px;
+    }
+
+    .skill-lang {
+      font-size: 60px;
+    }
+
+    /*--------------------------------project section ------------*/
+    .project-section {
+      background-color: #FBFCFC;
+      padding: 30px 0px;
+
+    }
+
+    .project-body {
+      text-align: center;
+    }
+
+    .project-body h1 {
+      font-size: 2.3rem;
+      font-weight: 700;
+    }
+
+    .project-body p {
+      color: gray;
+    }
+
+    .project-cards {
+      margin: 60px 0px;
+    }
+
+    .project-card {
+      width: 18rem;
+      /* margin: 68px 0px; */
+      background: transparent;
+      border: none;
+      align-items: center;
+      margin: 27px 46px;
+    }
+
+    /*--------------------------------contact section ------------*/
+    .contact-section{
+      background: white;
+    }
+
+    .contact-body{
+      padding: 30px 0px;
+    }
+    .contact-body h1{
+      text-align: center;
+      font-size: 2.3rem;
+      font-weight: 700;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Geeky Asif</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+      </div>
+    </div>
+  </nav>
+
+  <div class="home-section">
+
+    <div class="container home-body">
+
+      <div class="row home-row">
+        <div class="col-sm-6 home-intro">
+          <h1>I'M MOHAMMAD ASIF</h1>
+          <h4>FULL STACK WEB DEVELOPER</h4>
+          <div class="icons">
+            <span>
+              <a href=""><img class="social-icons" src="linkedin.svg" alt=""></a>
+            </span>
+            <span>
+              <a href=""><img class="social-icons" src="facebook.svg" alt=""></a>
+            </span>
+            <span>
+              <a href=""><img class="social-icons" src="instagram.svg" alt=""></a>
+            </span>
+            <span>
+              <a href=""><img class="social-icons" src="github-sign.svg" alt=""></a>
+            </span>
+            <span>
+              <a href=""><img class="social-icons" src="web.svg" alt=""></a>
+            </span>
           </div>
-          <div class="col-sm-8 py-4">
-            <h1 class="text-danger">Mohammad Asif</h1>
-            <p class="lead text-white"><b>Web Developer</b></p>
-            <p class="lead text-white">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto
-              cum facilis quia doloremque, omnis tempore? Recusandae perferendis
-              suscipit labore facilis optio perspiciatis, nulla at placeat
-              cumque debitis maxime! Maiores, repellat. Voluptate perspiciatis
-              fuga quae! Laborum voluptatum aspernatur amet velit tenetur!
-            </p>
+        </div>
+
+
+        <div class="col-sm-6 home-intro-img">
+          <img src="a.png" alt="">
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="about-section">
+      <div class=" container about-body">
+        <div class="row about-row">
+          <div class="col-sm-6">
+            <img class="about-img" src="me.png" alt="">
+          </div>
+          <div class="col-sm-6">
+            <h3 id="about-myself">ABOUT MYSELF</h3>
+            <p id="about-para">Hi ! My name is Mohammad Asif and I’m a student, Perusing Bachelor of Computer
+              Application at Integral University Lucknow. And I’m also a full stack web developer. I love learning and
+              exploring new technologies and i recently start writing blogs. I I recently started learning python so i
+              decided to share my knowledge with you. Because writing blogs will makes ours learning better and
+              stronger.</p>
+            <a class="about-link" href=""> <i class="about-icon fas fa-envelope"></i> mdaasif08737@gmail.com</a><br>
+            <a class="about-link" href=""><i class="about-icon fas fa-university"></i> Integral University Lucknow,
+              Uttar Pardesh , India</a>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="skill-section">
+      <div class="container skill-body ">
+        <h1>MY SKILLS</h1>
+        <ul class="skill-ul">
+          <li><i class="skill-lang fab fa-html5"></i></li>
+          <li><i class="skill-lang fab fa-css3-alt"></i></li>
+          <li><i class="skill-lang fab fa-js-square"></i></li>
+          <li><i class="skill-lang fab fa-python"></i></li>
+          <li><i class="skill-lang fab fa-php"></i></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="project-section">
+      <div class="container project-body">
+        <h1>MY LATEST PROJECTS</h1>
+        <p>Learning the theory is good, but applying your knowledge on a project is AWESOME!!</p>
+        <div class="project-cards">
+          <div class="row">
+            <div class="card project-card" style="width: 18rem;">
+              <img src="home.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Discuss Forum</h5>
+                <p>using php</p>
+                <a href="#">View Code</a>
+              </div>
+            </div>
+            <div class="card project-card" style="width: 18rem;">
+              <img src="home.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Discuss Forum</h5>
+                <p>using php</p>
+                <a href="#">View Code</a>
+              </div>
+            </div>
+            <div class="card project-card" style="width: 18rem;">
+              <img src="home.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Discuss Forum</h5>
+                <p>using php</p>
+                <a href="#">View Code</a>
+              </div>
+            </div>
+            <div class="card project-card" style="width: 18rem;">
+              <img src="home.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Discuss Forum</h5>
+                <p>using php</p>
+                <a href="#">View Code</a>
+              </div>
+            </div>
+            <div class="card project-card" style="width: 18rem;">
+              <img src="home.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Discuss Forum</h5>
+                <p>using php</p>
+                <a href="#">View Code</a>
+              </div>
+            </div>
+            <div class="card project-card" style="width: 18rem;">
+              <img src="home.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Discuss Forum</h5>
+                <p>using php</p>
+                <a href="#">View Code</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="container-fluid bg-danger text-white py-3 text-center">
-      <div class="row">
-        <div class="col-sm-3">+91 9161807416</div>
-        <div class="col-sm-3">mdasif08737@gmail.com</div>
-        <div class="col-sm-3">www.linkedin/mohammadasif</div>
-        <div class="col-sm-3">www.github.com/webdevasif</div>
-      </div>
-    </div>
-    <div class="container-fluid pt-5 bg-light">
-      <div class="container bg-white px-5 pt-2 border shadow">
-        <div class="education my-5 pt-4">
-          <h2 class="text-danger mb-3 pb-2 border-bottom">EDUCATION</h2>
-          <h4>Bacherlor Of Computer Application</h4>
-          <p class="lead">Integral University Lucknow</p>
-          <p>July - 2019 ( Present )</p>
-          <h4>Delhi Public Convent School</h4>
-          <p class="lead">Class XII</p>
-          <p class="lead">class X</p>
-          <p>July - 2016, May - 2018</p>
-        </div>
-
-        <div class="skills mt-5">
-          <h2 class="text-danger pb-2 border-bottom">KEY SKILLS</h2>
-          <h4 class="mt-4 mb-3">Language</h4>
-          <p>
-            <span class="badge badge-light py-2 px-5 mx-1">C</span>
-            <span class="badge badge-light py-2 px-5 mx-1">C++</span>
-            <span class="badge badge-light py-2 px-5 mx-1">Python</span>
-            <span class="badge badge-light py-2 px-5 mx-1">Javascript</span>
-            <span class="badge badge-light py-2 px-5 mx-1">Php</span>
-          </p>
-          <h4 class="my-3 ">Web frameworks</h4>
-          <span class="badge badge-light py-2 px-5 mx-1">Django</span>
-          <span class="badge badge-light py-2 px-5 mx-1">Flask</span>
-          <span class="badge badge-light py-2 px-5 mx-1">jquery</span>
-        </div>
-
-        <div class="projects mt-5">
-          <h2 class="text-danger my-4 pb-2 border-bottom">PROJECTS</h2>
-          <p class="lead">Coding Discuss Forum</p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ea
-            consequuntur aut animi. Minima ut, fugiat temporibus quaerat quis
-            deleniti.
-          </p>
-          <p class="lead">Dynamic Blog</p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
-            laborum soluta nulla dignissimos molestias exercitationem
-            reiciendis, qui aspernatur. Fugit, aperiam.
-          </p>
-          <p class="lead">Pdf Notes Website</p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Exercitationem aliquid eum animi sed commodi molestias reprehenderit
-            aut natus soluta aspernatur?
-          </p>
-          <p class="lead">Text Utils</p>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem
-            maiores odit corrupti deserunt delectus similique minus velit eius
-            sed ab!
-          </p>
+    <div class="contact-section">
+      <div class="container contact-body">
+        <h1>CONTACT US</h1>
+        <div class="col-sm-8 mx-auto">
+          <form action="">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Full Name</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Comment/Question</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+          <button class="btn btn-primary btn-block">Submit</button>
+          </form>
         </div>
       </div>
     </div>
+
+    <!-- <form action="https://send.pageclip.co/GUoxcs6yjDohuk00fQgWDVapTm06xjbO" class="pageclip-form" method="post"> -->
+    <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
+    <!-- <input type="text" name="name" value="Roscoe Jones" /> -->
+    <!-- <input type="email" name="email" value="roscoe@example.com" /> -->
+
+    <!-- This button will have a loading spinner. Keep the inner span for best results. -->
+    <!-- <button type="submit" class="pageclip-form__submit">
+        <span>Send</span>
+      </button>
+    </form>
+     -->
+
+
     <!-- Optional JavaScript; choose one of the two! -->
+    <script>
 
+    </script>
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"></script>
+    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 
-    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
     -->
-  </body>
+</body>
+
 </html>
