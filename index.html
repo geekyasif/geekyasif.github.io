@@ -135,17 +135,17 @@
 
     .skill-ul {
       display: flex;
-      margin: 60px 200px;
+      margin: 60px 115px;
 
     }
 
     .skill-ul li {
       list-style: none;
-      margin: 0px 40px;
+      margin: 0px 45px;
     }
 
     .skill-lang {
-      font-size: 60px;
+      font-size: 90px;
     }
 
     /*--------------------------------project section ------------*/
@@ -182,17 +182,56 @@
     }
 
     /*--------------------------------contact section ------------*/
-    .contact-section{
-      background: white;
+    .contact-section {
+      background: #F8F9F9;
     }
 
-    .contact-body{
-      padding: 30px 0px;
+    .contact-body {
+      padding: 55px 0px;
     }
-    .contact-body h1{
+
+    .contact-body h5 {
+      padding-top: 50px;
+      font-size: 3.5rem;
+      font-family: emoji;
+      color: #626567;
+      text-align: center;
+    }
+
+    .contact-body h1 {
       text-align: center;
       font-size: 2.3rem;
       font-weight: 700;
+    }
+
+    .contact-body p {
+      text-align: center;
+      color: gray;
+      font-size: 1.3rem;
+      padding-bottom: 30px;
+    }
+
+    .submit {
+      background: #2471A3;
+      margin: 0px 326px;
+    }
+
+    /*-----------------------------------footer section -----------------------*/
+    .footer-section {
+      background: black;
+      color: white;
+      padding: 100px 0px;
+    }
+
+    .footer-section ul {
+
+      display: flex;
+
+    }
+
+    .footer-section ul li {
+      list-style: none;
+      margin: 7px 20px;
     }
   </style>
 </head>
@@ -360,7 +399,9 @@
 
     <div class="contact-section">
       <div class="container contact-body">
+        <h5>Get in Touch</h5>
         <h1>CONTACT US</h1>
+        <p>Got some issues/suggesstion? we would like to hear from you</p>
         <div class="col-sm-8 mx-auto">
           <form action="">
             <div class="mb-3">
@@ -372,14 +413,45 @@
               <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
             </div>
             <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="form-label">Comment/Question</label>
+              <label for="exampleFormControlTextarea1" class="form-label">Issues/Suggesstion?</label>
               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
-          <button class="btn btn-primary btn-block">Submit</button>
+            <button class="btn submit btn-primary">Submit</button>
           </form>
         </div>
       </div>
     </div>
+
+
+    <footer class="footer-section">
+      <div class="container footer-body">
+        <div class="row footer_inner">
+          <div class=" col-sm-8">
+            <div class="f_title">
+              <h3>About Me</h3>
+            </div>
+            <p>Do you want to be even more successful? Learn to love learning and growth. The more effort you put into
+              improving your skills, the better you get.</p>
+          </div>
+
+          <div class="col-sm-4 text-center">
+            <div class="f_title">
+              <h3>Follow Me Here</h3>
+            </div>
+            <ul class="list">
+              <li><a href="https://github.com/" target="_blank"><i class="fab fa-github fa-2x"
+                    aria-hidden="true"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/" target="_blank"><i
+                    class="fab fa-linkedin fa-2x" aria-hidden="true"></i></a></li>
+              <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-2x"
+                    aria-hidden="true"></i></a></li>
+              <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-2x"
+                    aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!-- <form action="https://send.pageclip.co/GUoxcs6yjDohuk00fQgWDVapTm06xjbO" class="pageclip-form" method="post"> -->
     <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
