@@ -1,0 +1,219 @@
+.navbar {
+    border-bottom: 1px solid palegoldenrod;
+  }
+
+  .navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 2rem;
+    line-height: inherit;
+    white-space: nowrap;
+    font-family: cursive;
+    color: darkgoldenrod !important;
+
+  }
+
+  .bg-light {
+    background-color: antiquewhite !important;
+  }
+
+  .nav-item {
+    padding: 21px;
+    font-size: 1.2rem;
+  }
+
+
+
+  .home-section {
+    background-color: antiquewhite;
+    /* padding: 185px 0px; */
+  }
+
+  .home-row {
+    padding: 185px 0px;
+  }
+
+  .home-intro {
+    text-align: center;
+    padding: 100px 0px;
+  }
+
+  .home-intro h1 {
+    font-family: initial;
+
+  }
+
+  .home-intro h4 {
+    font-size: 1.2rem;
+    font-family: ui-serif;
+  }
+
+  .home-intro-img img {
+    border-radius: 175px;
+    margin: 0px 88px;
+  }
+
+  .social-icons {
+    width: 20px;
+    margin: 0px 10px;
+  }
+
+  /* ---------------about-section------------ */
+  .about-section {
+    background-color: #FBFCFC;
+  }
+
+  .about-body {
+    padding: 100px 0px;
+  }
+
+  .about-img {
+    width: 302px;
+    height: 294px;
+    border-radius: 152px;
+  }
+
+  #about-myself {
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  #about-para {
+    color: gray;
+    margin: 10px 0px;
+    padding: 3px 0px;
+  }
+
+  .about-icon {
+    width: 25px;
+    margin-right: 15px;
+    margin-top: 20px;
+  }
+
+  .about-link {
+    text-decoration: none;
+    color: gray;
+    margin-top: 10px;
+  }
+
+  /*--------------------------------skill section ------------*/
+  .skill-section {
+    background-color: white;
+  }
+
+  .skill-body {
+
+    padding: 64px 0px;
+    text-align: center;
+    padding-bottom: 78px;
+
+  }
+
+  .skill-body h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+
+  .skill-ul {
+    display: flex;
+    margin: 60px 115px;
+
+  }
+
+  .skill-ul li {
+    list-style: none;
+    margin: 0px 45px;
+  }
+
+  .skill-lang {
+    font-size: 90px;
+  }
+
+  /*--------------------------------project section ------------*/
+  .project-section {
+    background-color: #FBFCFC;
+    padding: 30px 0px;
+
+  }
+
+  .project-body {
+    text-align: center;
+  }
+
+  .project-body h1 {
+    font-size: 2.3rem;
+    font-weight: 700;
+  }
+
+  .project-body p {
+    color: gray;
+  }
+
+  .project-cards {
+    margin: 60px 0px;
+  }
+
+  .project-card {
+    width: 18rem;
+    /* margin: 68px 0px; */
+    background: transparent;
+    border: none;
+    align-items: center;
+    margin: 27px 46px;
+  }
+
+  /*--------------------------------contact section ------------*/
+  .contact-section {
+    background: #F8F9F9;
+  }
+
+  .contact-body {
+    padding: 55px 0px;
+  }
+
+  .contact-body h5 {
+    padding-top: 50px;
+    font-size: 3.5rem;
+    font-family: emoji;
+    color: #626567;
+    text-align: center;
+  }
+
+  .contact-body h1 {
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: 700;
+  }
+
+  .contact-body p {
+    text-align: center;
+    color: gray;
+    font-size: 1.3rem;
+    padding-bottom: 30px;
+  }
+
+  .submit {
+    background: #2471A3;
+    margin: 0px 326px;
+  }
+
+  /*-----------------------------------footer section -----------------------*/
+  .footer-section {
+    background: black;
+    color: white;
+    padding: 100px 0px;
+  }
+
+  .footer-section ul {
+
+    display: flex;
+
+  }
+
+  .footer-section ul li {
+    list-style: none;
+    margin: 7px 20px;
+  }
