@@ -286,7 +286,6 @@
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 
-
     .home-row {
         padding: 145px 0px;
     }
@@ -308,9 +307,19 @@
 
     .home-intro-img img {
         border-radius: 175px;
-        margin: 5px 125px;
-        width: 129px;
+        margin: 36px 105px;
+        width: 164px;
     }
+
+
+    #about-myself {
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-bottom: 26px;
+        text-align: center;
+    }
+
+
 
 
     .about-body {
@@ -325,11 +334,20 @@
         display: none;
     }
 
+    .about-icon {
+        margin-right: 0px;
+        margin-top: 15px;;
+    }
+
+
+
+
+
+
     /* ------------------------------skill section ------------- */
     .skill-body {
-        padding: 21px 0px;
+        padding: 30px 0px;
         text-align: center;
-        padding-bottom: 5px;
     }
 
     .skill-body h1 {
@@ -351,6 +369,26 @@
         font-size: 40px;
     }
 
+
+
+/* ----------------------------------------------- */
+    
+    .project-body h1 {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /* ---------------------------- */
     .contact-body {
         padding: 0px;
     }
@@ -377,7 +415,30 @@
     }
     .submit{
         margin: 23px 150px;
+
     }
+
+    .f_title h3{
+            text-align: center;
+            padding: 23px 0px;
+    }
+
+    .footer-section ul li {
+        list-style: none;
+        margin: 7px 15px;
+    }
+
+    .footer-section {
+        background: black;
+        color: white;
+        padding: 30px 0px;
+    }
+
+    .footer-section ul li {
+        list-style: none;
+        margin: 7px 14px;
+    }
+
 }
 
 /* // Small devices (landscape phones, less than 768px) */
