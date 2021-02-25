@@ -269,6 +269,19 @@
 }
 
 
+.fa-home{
+    color: #154360;
+}
+
+.fa-envelope{
+    color: #E74C3C;
+}
+
+.fa-phone{
+    color: #3498DB;
+}
+
+
 /*-----------------------------------footer section -----------------------*/
 .footer-section {
     background: black;
