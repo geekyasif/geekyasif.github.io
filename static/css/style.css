@@ -258,10 +258,16 @@
     padding-bottom: 30px;
 }
 
-.submit {
-    background: #2471A3;
-    margin: 0px 326px;
+.contact-row{
+    padding: 20px 0px;
+
 }
+
+.contact-icons{
+    font-size: 60px;
+    padding: 20px 0px;
+}
+
 
 /*-----------------------------------footer section -----------------------*/
 .footer-section {
