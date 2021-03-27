@@ -1,5 +1,12 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
 .navbar {
     border-bottom: 1px solid palegoldenrod;
+    width: 100vw;
 }
 
 .navbar-brand {
@@ -29,6 +36,7 @@
 .home-section {
     background-color: antiquewhite;
     /* padding: 185px 0px; */
+    height: 100vh;
 }
 
 .home-row {
@@ -303,8 +311,11 @@
 
 /* -------------responsive for mobile----------------------- */
 /* // Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
-
+@media (max-width: 480px) {
+    .container{
+        width: 100vw;
+    }
+    
     .home-row {
         padding: 145px 0px;
     }
