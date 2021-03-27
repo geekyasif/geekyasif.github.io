@@ -311,7 +311,7 @@ body{
 
 /* -------------responsive for mobile----------------------- */
 /* // Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 480px) {
+@media (max-width: 576px) {
     .container{
         width: 100vw;
     }
