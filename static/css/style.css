@@ -309,6 +309,32 @@ body{
 }
 
 
+
+
+/* extra modification */
+
+home-intro-img img {
+    border-radius: 100%;
+    margin: 0px 88px;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    width: 18vw;
+}
+
+
+.skill-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 47px;
+}
+
+
+
+
 /* -------------responsive for mobile----------------------- */
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 576px) {
