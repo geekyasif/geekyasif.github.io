@@ -314,7 +314,7 @@ body{
 /* extra modification */
 
 home-intro-img img {
-    border-radius: 100%;
+    border-radius: 100% !important;
     margin: 0px 88px;
 }
 
@@ -327,6 +327,7 @@ img {
 
 .skill-ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-top: 47px;
